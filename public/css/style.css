@@ -1,0 +1,141 @@
+/*cabeçalho do Site */
+.top-header
+{
+    background-color: #B5B5B5;
+    min-height: 10px;
+    
+}
+
+.middle-header
+{
+    background-color: #FFFFFF;
+    padding: 15px 0;
+    position: relative;
+  
+    
+    
+}
+.middle-header-central
+{
+   /* width: 800px; */
+    min-width: 800px
+}
+
+.middle-header-central .busca 
+{
+    display: flex;
+    align-items: center;
+}
+
+ 
+.middle-header-central .busca input 
+{
+   color: #0e1133;
+	outline: none;
+	background-color: #FEFEFE;
+	border: 1px solid #E5E5E5;
+	font-size: 14px;
+	padding-left: 20px;
+	height: 40px;
+	width: 100%;
+    
+}
+.middle-header-central .input-group-append {
+    background-color: #7E7C7C;
+    padding: 0 15px;
+    height: 40px;
+    outline: none;
+    border: none;
+    align-items: center;
+}
+.middle-header-central .busca .input-group-append i
+{
+    color: #FFFFFF;
+    font-size: 14px;
+   
+}
+
+
+.middle-header-right
+{
+    flex-wrap: nowrap;  
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.middle-header-right .log-user{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.middle-header-right .log-user li{
+    display: inline-block;
+    margin-right: 15px
+}
+.middle-header-right .log-user i
+{
+    font-size: 18px;
+    display:inline-block;
+    margin-right: 15px;
+}
+.middle-header-right .log-user li a
+{
+    color: black;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    
+}
+.middle-header .middle-header-right .log-user li.cart {
+    position: relative;
+    color: #53545b;
+}
+
+.middle-header .middle-header-right .log-user li.cart i {
+    color: #53545b;
+}
+.middle-header .middle-header-right .log-user li.cart span{
+    background-color: #1795FF;
+    font-weight: 500;
+    font-size: 11px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+    top: -4px;
+    right: -10px;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.menus
+{
+	background-color: #B5B5B5;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	
+	
+}
+.navbar-nav li a 
+{
+	color: black;
+	font-weight: 600;
+	
+}
+.navbar-nav li a:hover 
+{
+	color:#1795FF;
+	font-weight: 600;
+	
+}
+
+.fa .far .fas 
+{
+    font-family: "Font Awesome 5 Free";
+}

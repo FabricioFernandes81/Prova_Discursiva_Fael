@@ -1,0 +1,207 @@
+.header-carrinho
+{
+    margin-left: 10px;
+}
+.top-product{
+	margin-top: 15px;
+}
+.compras-papel-principal h3
+{
+font-size: 18px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.compraslist 
+{
+	list-style: none;
+	
+}
+
+.compras-papel-principal .comprasListPro
+{
+    padding: 10px 10px 0;
+    background-color: #fff;
+    border: 1px solid #B5B5B5;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.comprasListPro .conteudo-list
+{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 15px;
+	
+    
+}
+.painel-esquerda
+{
+   display: flex; 
+    flex: 0 0 10%;
+    align-items: center;
+}
+.painel-esquerda .imagem-produ
+{
+    flex:0 0 50px;
+    margin-right: 20px;
+}
+
+ .imagem-produ img
+{
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+}
+.painel-central
+{
+    flex-grow: 1;
+}
+.painel-central .titulo
+{
+  font-size: 12px;
+    color: black;
+    margin-bottom: 5px;
+    display:block;
+    font-weight: 500;
+}
+.painel-direita
+{
+    flex: 0 0 30%;
+}
+.preco-painel
+{
+    font-size: 20px;
+    font-weight: 700;
+    color:red;
+    margin-bottom: 20px;
+}
+.quantidade-add
+{
+    margin: 0;
+    display:inline-flex;
+    align-items: center;
+}
+.quantidade-add span input
+{
+    width: 40px;
+    box-shadow: unset;
+    text-align: center;
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+.quantidade-add span button
+{
+    font-weight: 600;
+    border-radius: 100%;
+    font-size: 11px;
+    display :inline-flex;
+    background-color: #1795FF;
+    border: 1px solid #1795FF;
+    margin-left: 0px;
+    width: 25px;
+    justify-content: center;
+    height: 25px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.compras-papel-fooder
+{
+    padding: 15px 0;
+    
+}
+
+.carrinho-frete
+{
+    width: 100%;
+}
+.carrinho-frete .input-group-append
+{
+    background-color: #25F904;
+    padding: 0 10px;
+    height: 40px;
+    outline: none;
+    border: none;
+    align-items: center;
+}
+.carrinho-frete input
+{
+    width: 55%;
+    height: 40px;
+}
+.fechar-pedido button
+{
+    margin-top: 10px;
+	padding-top: 10px;
+	width: 100%;
+	display: flex;
+    position:relative;
+	justify-content: center;
+	height: 55px;
+	align-content: center;
+}
+
+.header-frete
+{
+    padding: 10px 0 10px 0;
+    margin-bottom: 40px; 
+    border: 1px solid #000000;
+    border-radius: 2%;
+}
+.calculofrete
+{
+    width: 100%;
+    margin-left: -15px;
+}
+.calculofrete .container
+{
+    z-index: -1;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    user-select: none;
+    font-weight: 400;
+}
+
+.calculofrete li
+{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+
+    
+     
+}
+.calculofrete input
+{
+    position: absolute;
+    cursor: pointer;
+}
+
+.calculofrete .info
+{
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+.carr-vazio
+{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    
+}
+.carr-vazio .carr-vazio-a 
+{
+     width: 100%;
+    font-size: 18px;
+    text-align: center;
+}

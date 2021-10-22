@@ -1,0 +1,17 @@
+{
+    "name": "www/discursiva_fael",
+    "authors": [
+        {
+            "name": "Fabricio Fernandes",
+            "email": "foguinhofernandessap@gmail.com"
+        }
+    ],
+   
+    "autoload": {"psr-4": 
+        {
+            "app\\":"app/"
+        }},
+    "require": {
+        "twig/twig": "3.0"
+    }
+}

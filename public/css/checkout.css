@@ -1,0 +1,65 @@
+.detalhe-pessoal-info h3
+{
+	font-size: 22px;
+	position: relative;
+	margin: 0 0 55px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.detalhe-pessoal-info h3:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -12px;
+    background-color: #e97730;
+    width: 50px;
+    height: 2px;
+}
+.detalhe-pessoal-info .detalhe-pessoal label {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    margin: 0 0 5px;
+    font-weight: 500;
+}
+.detalhe-pessoal-info .detalhe-pessoal label abbr {
+    color: red;
+}
+
+.detalhe-pessoal-info .detalhe-pessoal input {
+    border: 1px solid #e8e8e8;
+    height: 50px;
+    background-color: transparent;
+    padding: 2px 20px;
+    color: #000000;
+    font-size: 14px;
+    width: 100%;
+}
+
+.btPedido {
+	
+    background-color: #096bbd;
+    display: block;
+    cursor: pointer;
+    padding: 16px 50px 17px;
+    text-transform: capitalize;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 1;
+}
+.metodos-pagamento
+{
+	margin: 30px 0 0;
+}
+
+.metodos-pagamento .forma-Pagamento input {
+    width: auto;
+    display: inline-block;
+   
+    height: auto;
+    margin-top: 5px;
+}
